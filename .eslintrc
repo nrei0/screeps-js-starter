@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings"],
+  "plugins": ["import"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Game": "readonly",
+    "InterShardMemory": "readonly",
+    "Game.map": "readonly",
+    "Game.map.visual": "readonly",
+    "Game.market": "readonly",
+    "Memory": "writable",
+    "PathFinder": "readonly",
+    "RawMemory": "readonly",
+    "Constants": "readonly",
+    "_": "readonly"
+  },
+  "rules": {
+    "no-console": "off"
+  }
+}

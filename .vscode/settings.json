@@ -1,0 +1,22 @@
+{
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false,
+    "editor.renderWhitespace": "boundary",
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "dist/**": true,
+        "node_modules/**": true
+    },
+    "eslint.enable": true,
+    "editor.tabSize": 2
+}
